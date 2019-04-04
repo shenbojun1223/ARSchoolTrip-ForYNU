@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: 57eb960a5fab8bb4389e0670551c3113
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone_001
+    100004: Bone_002
+    100006: Circle_001
+    100008: Cube_001
+    100010: FTVL
+    100012: FTVL_001
+    100014: FTVL_002
+    100016: FTVL_003
+    100018: FTVL_pole
+    100020: FTVL_pole_001
+    100022: FTVL_pole_002
+    100024: FTVL_pole_003
+    100026: FVL
+    100028: FVL_001
+    100030: FVL_002
+    100032: FVL_003
+    100034: LVL_1
+    100036: LVL_1_001
+    100038: LVL_1_002
+    100040: LVL_1_003
+    100042: LVL_2
+    100044: LVL_2_001
+    100046: LVL_2_002
+    100048: LVL_2_003
+    100050: Robot
+    100052: //RootNode
+    100054: RobotArmature
+    100056: Bone.001
+    100058: Bone.002
+    100060: FTVL.001
+    100062: FTVL.002
+    100064: FTVL.003
+    100066: FTVL.pole
+    100068: FTVL.pole.001
+    100070: FTVL.pole.002
+    100072: FTVL.pole.003
+    100074: FVL.001
+    100076: FVL.002
+    100078: FVL.003
+    100080: LVL_1.001
+    100082: LVL_1.002
+    100084: LVL_1.003
+    100086: LVL_2.001
+    100088: LVL_2.002
+    100090: LVL_2.003
+    400000: Bone
+    400002: Bone_001
+    400004: Bone_002
+    400006: Circle_001
+    400008: Cube_001
+    400010: FTVL
+    400012: FTVL_001
+    400014: FTVL_002
+    400016: FTVL_003
+    400018: FTVL_pole
+    400020: FTVL_pole_001
+    400022: FTVL_pole_002
+    400024: FTVL_pole_003
+    400026: FVL
+    400028: FVL_001
+    400030: FVL_002
+    400032: FVL_003
+    400034: LVL_1
+    400036: LVL_1_001
+    400038: LVL_1_002
+    400040: LVL_1_003
+    400042: LVL_2
+    400044: LVL_2_001
+    400046: LVL_2_002
+    400048: LVL_2_003
+    400050: Robot
+    400052: //RootNode
+    400054: RobotArmature
+    400056: Bone.001
+    400058: Bone.002
+    400060: FTVL.001
+    400062: FTVL.002
+    400064: FTVL.003
+    400066: FTVL.pole
+    400068: FTVL.pole.001
+    400070: FTVL.pole.002
+    400072: FTVL.pole.003
+    400074: FVL.001
+    400076: FVL.002
+    400078: FVL.003
+    400080: LVL_1.001
+    400082: LVL_1.002
+    400084: LVL_1.003
+    400086: LVL_2.001
+    400088: LVL_2.002
+    400090: LVL_2.003
+    2300000: Circle_001
+    2300002: Cube_001
+    3300000: Circle_001
+    3300002: Cube_001
+    4300000: Circle_001
+    4300002: Cube_001
+    4300004: Robot
+    7400000: Default Take
+    7400002: Walk
+    7400004: Jump
+    7400006: Fall
+    7400008: Default Take0
+    9500000: //RootNode
+    13700000: Robot
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: RobotArmature
+        weight: 1
+      - path: RobotArmature/Bone
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2/FVL
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001/FVL_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002/FVL_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003/FVL_003
+        weight: 1
+      - path: RobotArmature/FTVL
+        weight: 1
+      - path: RobotArmature/FTVL_001
+        weight: 1
+      - path: RobotArmature/FTVL_002
+        weight: 1
+      - path: RobotArmature/FTVL_003
+        weight: 1
+      - path: RobotArmature/FTVL_pole
+        weight: 1
+      - path: RobotArmature/FTVL_pole_001
+        weight: 1
+      - path: RobotArmature/FTVL_pole_002
+        weight: 1
+      - path: RobotArmature/FTVL_pole_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: RobotArmatureAction
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: RobotArmature
+        weight: 1
+      - path: RobotArmature/Bone
+        weight: 1
+      - path: RobotArmature/Bone/Bone.001
+        weight: 1
+      - path: RobotArmature/Bone/Bone.001/Bone.002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2/FVL
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.001/LVL_2.001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.001/LVL_2.001/FVL.001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.002/LVL_2.002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.002/LVL_2.002/FVL.002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.003/LVL_2.003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1.003/LVL_2.003/FVL.003
+        weight: 1
+      - path: RobotArmature/FTVL
+        weight: 1
+      - path: RobotArmature/FTVL.001
+        weight: 1
+      - path: RobotArmature/FTVL.002
+        weight: 1
+      - path: RobotArmature/FTVL.003
+        weight: 1
+      - path: RobotArmature/FTVL.pole
+        weight: 1
+      - path: RobotArmature/FTVL.pole.001
+        weight: 1
+      - path: RobotArmature/FTVL.pole.002
+        weight: 1
+      - path: RobotArmature/FTVL.pole.003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Default Take
+      firstFrame: 30
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: RobotArmature
+        weight: 1
+      - path: RobotArmature/Bone
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2/FVL
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001/FVL_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002/FVL_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003/FVL_003
+        weight: 1
+      - path: RobotArmature/FTVL
+        weight: 1
+      - path: RobotArmature/FTVL_001
+        weight: 1
+      - path: RobotArmature/FTVL_002
+        weight: 1
+      - path: RobotArmature/FTVL_003
+        weight: 1
+      - path: RobotArmature/FTVL_pole
+        weight: 1
+      - path: RobotArmature/FTVL_pole_001
+        weight: 1
+      - path: RobotArmature/FTVL_pole_002
+        weight: 1
+      - path: RobotArmature/FTVL_pole_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Default Take
+      firstFrame: 45
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: RobotArmature
+        weight: 1
+      - path: RobotArmature/Bone
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2/FVL
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001/FVL_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002/FVL_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003/FVL_003
+        weight: 1
+      - path: RobotArmature/FTVL
+        weight: 1
+      - path: RobotArmature/FTVL_001
+        weight: 1
+      - path: RobotArmature/FTVL_002
+        weight: 1
+      - path: RobotArmature/FTVL_003
+        weight: 1
+      - path: RobotArmature/FTVL_pole
+        weight: 1
+      - path: RobotArmature/FTVL_pole_001
+        weight: 1
+      - path: RobotArmature/FTVL_pole_002
+        weight: 1
+      - path: RobotArmature/FTVL_pole_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Default Take0
+      takeName: Default Take
+      firstFrame: 60
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Robot
+        weight: 1
+      - path: RobotArmature
+        weight: 1
+      - path: RobotArmature/Bone
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001
+        weight: 1
+      - path: RobotArmature/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1/LVL_2/FVL
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_001/LVL_2_001/FVL_001
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_002/LVL_2_002/FVL_002
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003
+        weight: 1
+      - path: RobotArmature/Bone/LVL_1_003/LVL_2_003/FVL_003
+        weight: 1
+      - path: RobotArmature/FTVL
+        weight: 1
+      - path: RobotArmature/FTVL_001
+        weight: 1
+      - path: RobotArmature/FTVL_002
+        weight: 1
+      - path: RobotArmature/FTVL_003
+        weight: 1
+      - path: RobotArmature/FTVL_pole
+        weight: 1
+      - path: RobotArmature/FTVL_pole_001
+        weight: 1
+      - path: RobotArmature/FTVL_pole_002
+        weight: 1
+      - path: RobotArmature/FTVL_pole_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
