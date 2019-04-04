@@ -1,4 +1,4 @@
-# ARSchoolTrip-ARCore-DumixAR
+# ARSchoolTrip-ForYNU/base ARCore
 
 2019-4-4：第一次上传，未整理版本
 在我们进行了自己制作demo后，学院的老师提出与我们进行合作。
